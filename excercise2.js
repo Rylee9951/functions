@@ -41,3 +41,13 @@ function Rovarspraket(phrase){
 }
 
 console.log(Rovarspraket("ryan"))
+
+function reverse(phrase){
+	var newWord = "";
+	for(var i = phrase.length - 1; i > -1; i -= 1){
+		newWord += phrase[i]
+	}
+	return newWord 
+
+}
+console.log(reverse("ryan"))
