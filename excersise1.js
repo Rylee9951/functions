@@ -26,7 +26,7 @@ console.log(greaterThan(10,3))
 function greet (name) {
 	return "Hello, "+ name + "!"
 }
-console.log(greet())
+console.log(greet('Ryan'))
 
 function madlib (word1, word2, word3, word4) {
 	var str = 'quick' , 'fox' , 'fence'
